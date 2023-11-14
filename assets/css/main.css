@@ -1,0 +1,81 @@
+/* FRAMEWORK */
+@import url(bootstrap.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* GLOBAL */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+a:hover { 
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bg: #000;
+    --color-primary: #000;
+    --btn-primary: #FFFF;
+}
+
+.navbar-area {
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-content h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+}
+.nav-content ul  {
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+.nav-content a {
+    line-height: 2rem;
+    display: block;
+    color: #000;
+}
+
+.footer-area {
+    padding:1rem;
+}
+
+/* INDEX */
+.banner {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 600px;
+    background-color: aliceblue;
+}
+
+.banner-text h1,
+.banner-text h2 {
+    text-transform: uppercase;
+}
+.banner-text h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    width: 10em; 
+    word-wrap: break-word;
+    color: var(--color-primary);
+}
+.banner-text h2 {
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+
+/* PROJETOS */
