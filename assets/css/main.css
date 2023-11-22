@@ -566,7 +566,9 @@ border-color:  var(--btn-primary);
 }
 
 @media (min-width: 1200px) {
-
+    .nav-content i {
+        display: none;
+    }
 }
 
 
