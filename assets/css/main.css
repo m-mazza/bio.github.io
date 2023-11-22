@@ -177,13 +177,12 @@ border-color:  var(--btn-primary);
     color: var(--color-secundary);
 }
 
+/* informações */
 .info-content h3 {
     font-size: 1.1rem;
     font-weight: 400;
     margin: 0;
 }
-
-
 .info-card,
 .info-card-2  {
     border-radius: 20px;
@@ -209,13 +208,11 @@ border-color:  var(--btn-primary);
     color: var(--color-secundary);
     font-size: 0.9rem;
 }
-
 .info-card p,
 .info-card-2 p {
     font-size: 0.8rem;
     margin: 0;
 }
-
 .info-card h3 {
     text-align: center;
 }
@@ -223,6 +220,16 @@ border-color:  var(--btn-primary);
     text-align: center;
 }
 
+.anima {
+    transform: rotate(180deg);
+    transition: all 0.3s;
+}
+.anima-back {
+    transform: rotate(0deg);
+    transition: all 0.3s;
+}
+
+/* habilidades */
 .skills-content {
     background-color: #f9f9f9;
 }
@@ -231,7 +238,6 @@ border-color:  var(--btn-primary);
     font-size: 1.1rem;
     font-weight: 400;
 }
-
 .skill-card {
     border-radius: 20px;
     background-color: var(--bg-primary);
@@ -249,6 +255,7 @@ border-color:  var(--btn-primary);
     text-transform: uppercase;
     color: var(--color-secundary);
 }
+
 /* ----------------- END INDEX */
 
 
