@@ -272,6 +272,7 @@ border-color:  var(--btn-primary);
 
 @media (max-width: 320.98px) {
 
+    /* banner */
     .banner-content{
         background-position: 40% -2rem;
         background-size: 54rem;
@@ -322,9 +323,64 @@ border-color:  var(--btn-primary);
         margin-top: 1.8rem !important;
         width: 100%;
     }
+
+    /* info area */
+    .info-content {
+        padding: 3rem 0 1.5rem 0;
+    }
+    .info-content h1 {
+        font-size: 1rem;
+        justify-content: center;
+        align-items: start;
+    }
+    .info-content h3 {
+        font-size: 0.9rem;
+        text-align: center;
+        line-height: 1.3rem;
+    }
+    #exp .intro {
+        text-align: center !important;
+    }
+    .info-card-2 {
+        padding: 1rem;
+        height: 280px;
+        display: flex;
+        align-items: center;
+    }
+    .info-card-2 h3 {
+        text-align: unset !important;
+    }
+    .info-card-2 p {
+        font-size: 0.79rem;
+        margin: 0;
+    }
+    #rotina-trabalho p {
+        font-size: 0.9rem !important;
+        text-align: left !important;
+        align-items: start !important;
+    }
+
+    /* skills area */
+    .skills-content {
+        padding: 1.5rem 0;
+    }
+    .skills-content h1 {
+        font-size: 1rem;
+        justify-content: center;
+        align-items: start;
+    }
+    .skills-content h3 {
+        font-size: 0.9rem;
+        text-align: center;
+        line-height: 1.3rem;
+    }
+    .skill-card h1 {
+        font-size: 0.8rem;
+    }
 }
 @media (min-width: 321px) and (max-width: 375.98px) {
     
+    /* banner */
     .banner-content{
         background-position: 38% -2rem;
         background-size: 54rem;
@@ -375,10 +431,117 @@ border-color:  var(--btn-primary);
         margin-top: 2.1rem !important;
         width: 100%;
     }
+
+    /* banner */
+    .banner-content{
+        background-position: 40% -2rem;
+        background-size: 54rem;
+        height: 530px;
+    }
+    .navbar-area {
+        top: 0;
+    }
+    .nav-content {
+        padding: 0 1rem;
+    }
+    .nav-content i {
+        font-size: 1.5rem;
+    }
+    .nav-content ul {
+        display: none;
+    }
+    .banner-text {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 89%;
+        bottom: 1rem;
+        padding: 1rem;
+    }
+    .banner-text p {
+        font-size: 0.9rem;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+    }
+    .banner-text h1 {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    .banner-text h3{
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+    .banner-text p, 
+    .banner-text h1,
+    .banner-text h3 {
+        color: var(--bg-primary);
+        background-color: #1b1b1b8c;
+        display: inline-block;
+    }
+    .banner-text a {
+        margin-top: 1.8rem !important;
+        width: 100%;
+    }
+
+    /* info area */
+    .info-content {
+        padding: 3rem 0 1.5rem 0;
+    }
+    .info-content h1 {
+        font-size: 1rem;
+        justify-content: center;
+        align-items: start;
+    }
+    .info-content h3 {
+        font-size: 0.9rem;
+        text-align: center;
+        line-height: 1.3rem;
+    }
+    #exp .intro {
+        text-align: center !important;
+    }
+    .info-card-2 {
+        padding: 1rem;
+        height: 280px;
+        display: flex;
+        align-items: center;
+    }
+    .info-card-2 h3 {
+        text-align: unset !important;
+    }
+    .info-card-2 p {
+        font-size: 0.79rem;
+        margin: 0;
+    }
+    #rotina-trabalho p {
+        font-size: 0.9rem !important;
+        text-align: left !important;
+        align-items: start !important;
+    }
+
+    /* skills area */
+    .skills-content {
+        padding: 1.5rem 0;
+    }
+    .skills-content h1 {
+        font-size: 1rem;
+        justify-content: center;
+        align-items: start;
+    }
+    .skills-content h3 {
+        font-size: 0.9rem;
+        text-align: center;
+        line-height: 1.3rem;
+    }
+    .skill-card h1 {
+        font-size: 0.8rem;
+    }
 }
 
 @media (min-width: 376px) and (max-width: 425.98px) {
     
+    /* banner */
     .banner-content{
         background-position: 38% -2rem;
         background-size: 56rem;
@@ -429,10 +592,117 @@ border-color:  var(--btn-primary);
         margin-top: 2.1rem !important;
         width: 100%;
     }
+
+    /* banner */
+    .banner-content{
+        background-position: 40% -2rem;
+        background-size: 54rem;
+        height: 530px;
+    }
+    .navbar-area {
+        top: 0;
+    }
+    .nav-content {
+        padding: 0 1rem;
+    }
+    .nav-content i {
+        font-size: 1.5rem;
+    }
+    .nav-content ul {
+        display: none;
+    }
+    .banner-text {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 89%;
+        bottom: 1rem;
+        padding: 1rem;
+    }
+    .banner-text p {
+        font-size: 0.9rem;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+    }
+    .banner-text h1 {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    .banner-text h3{
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+    .banner-text p, 
+    .banner-text h1,
+    .banner-text h3 {
+        color: var(--bg-primary);
+        background-color: #1b1b1b8c;
+        display: inline-block;
+    }
+    .banner-text a {
+        margin-top: 1.8rem !important;
+        width: 100%;
+    }
+
+    /* info area */
+    .info-content {
+        padding: 3rem 0 1.5rem 0;
+    }
+    .info-content h1 {
+        font-size: 1rem;
+        justify-content: center;
+        align-items: start;
+    }
+    .info-content h3 {
+        font-size: 0.9rem;
+        text-align: center;
+        line-height: 1.3rem;
+    }
+    #exp .intro {
+        text-align: center !important;
+    }
+    .info-card-2 {
+        padding: 1rem;
+        height: 280px;
+        display: flex;
+        align-items: center;
+    }
+    .info-card-2 h3 {
+        text-align: unset !important;
+    }
+    .info-card-2 p {
+        font-size: 0.79rem;
+        margin: 0;
+    }
+    #rotina-trabalho p {
+        font-size: 0.9rem !important;
+        text-align: left !important;
+        align-items: start !important;
+    }
+
+    /* skills area */
+    .skills-content {
+        padding: 1.5rem 0;
+    }
+    .skills-content h1 {
+        font-size: 1rem;
+        justify-content: center;
+        align-items: start;
+    }
+    .skills-content h3 {
+        font-size: 0.9rem;
+        text-align: center;
+        line-height: 1.3rem;
+    }
+    .skill-card h1 {
+        font-size: 0.8rem;
+    }
 }
 
 @media (min-width: 426px) and (max-width: 575.98px) {
     
+    /* banner */
     .banner-content{
         background-position: 38% -2rem;
         background-size: 56rem;
@@ -482,10 +752,21 @@ border-color:  var(--btn-primary);
     .banner-text a {
         margin-top: 2.1rem !important;
     }
+
+   /* info area */
+   .info-content {
+        padding: 3rem 0 1.5rem 0;
+    }
+
+    /* skills area */
+    .skills-content {
+        padding: 1.5rem 0;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
     
+    /* banner */
     .banner-content{
         background-position: 10rem 0rem;
         background-size: 42rem;
@@ -518,11 +799,13 @@ border-color:  var(--btn-primary);
     .banner-text h3 {  
         background-color: var(--bg-primary);
     }
+
     
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     
+    /* banner */
     .banner-content{
         background-position: 23rem 0rem;
         background-size: 40rem;
@@ -550,9 +833,17 @@ border-color:  var(--btn-primary);
     .banner-text h3 {  
         background-color: var(--bg-primary);
     }
+
+    #rotina-trabalho p {
+        text-align: left !important;
+        align-items: start !important;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    /* banner */
     .banner-text {
         width: 20.2rem;
     }
@@ -563,12 +854,28 @@ border-color:  var(--btn-primary);
     .nav-content i {
         display: none;
     }
+       
+    .info-card-2 {
+        padding: 1rem;
+        height: 266px;
+        display: flex;
+        align-items: center;
+    }
 }
 
 @media (min-width: 1200px) {
+
+    /* banner */
     .nav-content i {
         display: none;
     }
+    .info-card-2 {
+        padding: 1rem;
+        height: 266px;
+        display: flex;
+        align-items: center;
+    }
+
 }
 
 
