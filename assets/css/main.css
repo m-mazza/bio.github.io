@@ -110,7 +110,24 @@ border-color:  var(--btn-primary);
     background-color: var(--color-primary);
     padding: 2rem 0;
 }
-
+.footer-area p {
+    color: #fff;
+    margin: 0;
+}
+.social-content {
+    display: flex;
+}
+.social-content li a {
+    color: #fff;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    padding: 0 0.5rem;
+    display: block;
+}
+.social-content li a:hover {
+    opacity: 0.8;
+    transition: all 0.5s;
+}
 /* ----------------- END GLOBAL */
 
 /* ----------------- INDEX */
@@ -120,7 +137,6 @@ border-color:  var(--btn-primary);
     justify-content: end;
     align-items: center;
     height: 600px;
-    padding: 1rem 0;
     background-color: var(--bg-primary);
     background-position: 95% 7%;
     background-repeat: no-repeat;
@@ -161,12 +177,11 @@ border-color:  var(--btn-primary);
 }
 
 /* informações e habilidades */
-.info-content,
-.skills-content {
-    padding: 3.5rem 0;
-}
 .info-content .main-title,
-.skills-content .main-title {
+.skills-content .main-title,
+.projects-content .main-title,
+.certificates-content .main-title,
+.talk-to-me-content .main-title {
     display: flex;
     align-items: center;
     margin-bottom: 0.5rem;
@@ -178,6 +193,9 @@ border-color:  var(--btn-primary);
 }
 
 /* informações */
+.info-content {
+    padding: 3.5rem 0;
+}
 .info-content h3 {
     font-size: 1.1rem;
     font-weight: 400;
@@ -220,18 +238,11 @@ border-color:  var(--btn-primary);
     text-align: center;
 }
 
-.anima {
-    transform: rotate(180deg);
-    transition: all 0.3s;
-}
-.anima-back {
-    transform: rotate(0deg);
-    transition: all 0.3s;
-}
 
 /* habilidades */
 .skills-content {
     background-color: #f9f9f9;
+    padding: 3.5rem 0;
 }
 .skills-content h3 {
     text-align: justify;
@@ -256,11 +267,55 @@ border-color:  var(--btn-primary);
     color: var(--color-secundary);
 }
 
+
+/* projetos */
+.projects-content {
+    padding: 3.5rem 0;
+}
+.projects-content h3 {
+    text-align: justify;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+/* certificados */
+.certificates-content {
+    padding: 3.5rem 0;
+}
+.certificates-content h3 {
+    text-align: justify;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+/* Fale comigo */
+.talk-to-me-content {
+    padding: 3.5rem 0;
+}
+
+.talk-to-me-content h3 {
+    text-align: justify;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+/* animação seta */
+.anima {
+    transform: rotate(180deg);
+    transition: all 0.3s;
+}
+.anima-back {
+    transform: rotate(0deg);
+    transition: all 0.3s;
+}
+
+
 /* ----------------- END INDEX */
 
 
 
 /* ----------------- PROJETOS */
+
 /* ----------------- END PROJETOS */
 
 
@@ -326,8 +381,8 @@ border-color:  var(--btn-primary);
 
     /* info area */
     .info-content {
-        padding: 3rem 0 1.5rem 0;
-    }
+        padding: 1.5rem 0;
+    }    
     .info-content h1 {
         font-size: 1rem;
         justify-content: center;
@@ -363,7 +418,7 @@ border-color:  var(--btn-primary);
     /* skills area */
     .skills-content {
         padding: 1.5rem 0;
-    }
+    }    
     .skills-content h1 {
         font-size: 1rem;
         justify-content: center;
@@ -376,6 +431,59 @@ border-color:  var(--btn-primary);
     }
     .skill-card h1 {
         font-size: 0.8rem;
+    }
+
+    /* projetos */
+    .projects-content {
+        padding: 1.5rem 0;
+    }
+    .projects-content h1 {
+        font-size: 1rem;
+        justify-content: center;
+        align-items: start;
+    }
+    .projects-content h3 {
+        font-size: 0.9rem;
+        text-align: center;
+        line-height: 1.3rem;
+    }
+
+    /* certificados */
+    .certificates-content {
+        padding: 1.5rem 0;
+    }
+    .certificates-content h1 {
+        font-size: 1rem;
+        justify-content: center;
+        align-items: start;
+    }
+    .certificates-content h3 {
+        font-size: 0.9rem;
+        text-align: center;
+        line-height: 1.3rem;
+    }
+
+    /* Fale comigo */
+    .talk-to-me-content {
+        padding: 1.5rem 0;
+    }
+    .talk-to-me-content h1 {
+        font-size: 1rem;
+        justify-content: center;
+        align-items: start;
+    }
+    .talk-to-me-content h3 {
+        font-size: 0.9rem;
+        text-align: center;
+        line-height: 1.3rem;
+    }
+
+    .footer-area p {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+    .footer-area .social-content {
+        display: none;
     }
 }
 @media (min-width: 321px) and (max-width: 375.98px) {
@@ -485,9 +593,6 @@ border-color:  var(--btn-primary);
     }
 
     /* info area */
-    .info-content {
-        padding: 3rem 0 1.5rem 0;
-    }
     .info-content h1 {
         font-size: 1rem;
         justify-content: center;
@@ -521,9 +626,6 @@ border-color:  var(--btn-primary);
     }
 
     /* skills area */
-    .skills-content {
-        padding: 1.5rem 0;
-    }
     .skills-content h1 {
         font-size: 1rem;
         justify-content: center;
@@ -646,9 +748,6 @@ border-color:  var(--btn-primary);
     }
 
     /* info area */
-    .info-content {
-        padding: 3rem 0 1.5rem 0;
-    }
     .info-content h1 {
         font-size: 1rem;
         justify-content: center;
@@ -682,9 +781,6 @@ border-color:  var(--btn-primary);
     }
 
     /* skills area */
-    .skills-content {
-        padding: 1.5rem 0;
-    }
     .skills-content h1 {
         font-size: 1rem;
         justify-content: center;
@@ -753,15 +849,7 @@ border-color:  var(--btn-primary);
         margin-top: 2.1rem !important;
     }
 
-   /* info area */
-   .info-content {
-        padding: 3rem 0 1.5rem 0;
-    }
 
-    /* skills area */
-    .skills-content {
-        padding: 1.5rem 0;
-    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
