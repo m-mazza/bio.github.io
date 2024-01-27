@@ -30,10 +30,6 @@ $(function() {
     $(window).resize(function() {
         $('.mobile-menu-wrapper').css('transform', 'translate(-100%)');
     });
-    $(window).scroll(function () {
-        $('.mobile-menu-wrapper').css('transform', 'translate(-100%)');
-    });
-
 
     // ACIONA A BARRA FIXA
     $(document).on('scroll', function() {
@@ -51,14 +47,12 @@ $(function() {
 
     $('.navbar-area a[href^="#"').on('click', function(e) {
         e.preventDefault();
-    
-        var windowWidth = $(window).width();            
         var id = $(this).attr('href');
-        var targetOffset = $(id).offset().top;
-        var adjustedScrollTop = targetOffset - (windowWidth > 768 ? 120 : 450);
+        targetOffset = $(id).offset().top;
 
         $('html, body').animate({
-            scrollTop: adjustedScrollTop
+            scrollTop: targetOffset - 100
         }, 500);
     });
+
 })
