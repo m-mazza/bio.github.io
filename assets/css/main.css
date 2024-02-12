@@ -371,6 +371,7 @@ ul {
     color:  var(--color-secundary);
     color: #fff;
 }
+
 /* informações */
 .info-content {
     padding: 3.5rem 0;
@@ -710,6 +711,12 @@ ul {
         text-align: center;
         line-height: 1.3rem;
     }
+    .talk-to-me-content .contact {
+        flex-direction: column;
+    }
+    .talk-to-me-content .icon-bar {
+        display: none;
+    }
 
     .footer-area p {
         text-align: center;
@@ -877,6 +884,13 @@ ul {
     .skill-card h1 {
         font-size: 0.8rem;
     }
+
+    .talk-to-me-content .contact {
+        flex-direction: column;
+    }
+    .talk-to-me-content .icon-bar {
+        display: none;
+    }
 }
 
 @media (min-width: 376px) and (max-width: 425.98px) {
@@ -1036,6 +1050,12 @@ ul {
     .skill-card h1 {
         font-size: 0.8rem;
     }
+    .talk-to-me-content .contact {
+        flex-direction: column;
+    }
+    .talk-to-me-content .icon-bar {
+        display: none;
+    }
 }
 
 @media (min-width: 426px) and (max-width: 575.98px) {
@@ -1102,8 +1122,12 @@ ul {
     .banner-text a {
         margin-top: 2.1rem !important;
     }
-
-
+    .talk-to-me-content .contact {
+        flex-direction: column;
+    }
+    .talk-to-me-content .icon-bar {
+        display: none;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -1153,7 +1177,12 @@ ul {
         background-color: var(--bg-primary);
     }
 
-    
+    .talk-to-me-content .contact {
+        justify-content: space-around;
+    }
+    .talk-to-me-content .icon-bar {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1204,6 +1233,10 @@ ul {
         text-align: left !important;
         align-items: start !important;
     }
+    .talk-to-me-content .contact {
+        justify-content: center;
+    }
+  
 
 }
 
