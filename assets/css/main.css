@@ -93,7 +93,7 @@ ul {
 }
 .nav-content ul  {
     display: flex;
-    width: 50%;
+    width: 40%;
     justify-content: space-between;
 }
 .nav-content a:not(.nav-scroll-content a) {
@@ -339,8 +339,7 @@ ul {
 .info-content .main-title,
 .skills-content .main-title,
 .projects-content .main-title,
-.certificates-content .main-title,
-.talk-to-me-content .main-title {
+.certificates-content .main-title{
     display: flex;
     align-items: center;
     margin-bottom: 0.5rem;
@@ -351,6 +350,27 @@ ul {
     color: var(--color-secundary);
 }
 
+.talk-to-me-content {
+    background-color: var(--color-secundary);
+}
+.talk-to-me-content #fale-comigo,
+.talk-to-me-content h3 {
+    color: #fff;
+}
+.talk-to-me-content h5 {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.talk-to-me-content h5 i {
+    font-size: 1.8rem;
+    color: #fff;
+}
+.talk-to-me-content h5 a {
+    font-weight: 600;
+    color:  var(--color-secundary);
+    color: #fff;
+}
 /* informações */
 .info-content {
     padding: 3.5rem 0;
@@ -436,6 +456,19 @@ ul {
     font-size: 1.1rem;
     font-weight: 400;
 }
+.agency-overview {
+    margin: 0.9rem 0;
+}
+.agency-overview strong,
+.projetc-list strong {
+    font-weight: 500;
+}
+.agency-overview small {
+    margin-top: 0.25rem;
+    line-height: 1.05rem;
+    display: block;
+    font-size: 0.795rem;
+}
 
 /* certificados */
 .certificates-content {
@@ -474,6 +507,43 @@ ul {
 
 
 /* ----------------- PROJETOS */
+.projects-content h3 span {
+    font-weight: 700;
+    color: var(--color-secundary);
+}
+.project-wrapper {
+    border-radius: 0.35rem;
+    overflow: hidden;
+    position: relative;
+}
+.project-info-overlay,
+.project-wrapper p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+.project-info-overlay {
+    background-color: #ff3500;
+}
+.project-wrapper p {
+    color: #fff;
+    font-weight: 700;
+}
+.project-wrapper:hover .project-info-overlay{
+    opacity: 0.85;
+}
+.project-wrapper:hover p {
+    opacity: 1;
+}
+
 
 /* ----------------- END PROJETOS */
 

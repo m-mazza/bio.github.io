@@ -1,5 +1,13 @@
 $(function() {
 
+    // redirecionamento de página
+    $('.projeto, .smlink').click(function(e){
+        e.preventDefault(); 
+        var url = $(this).attr('href');
+        window.open(url, '_blank'); 
+    })
+    
+
     // BANNER - cria o data-bg, que capta a imagem direto html
     var banner = $('.banner-content').data('bg');
     $('.banner-content').css('background-image', 'url('+ banner +')');

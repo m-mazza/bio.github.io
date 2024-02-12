@@ -5893,21 +5893,21 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .close {
   float: right;
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 1.7rem;
+  font-weight: 500;
   line-height: 1;
-  color: #000;
-  text-shadow: 0 1px 0 #fff;
+  color: #fff;
+  /* text-shadow: 0 1px 0 #fff; */
   opacity: .5;
 }
 
 .close:hover {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
 .close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus {
-  opacity: .75;
+  opacity: .95;
 }
 
 button.close {
@@ -6085,7 +6085,7 @@ a.close.disabled {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
+  border-radius: 0.75rem;
   outline: 0;
 }
 
@@ -6114,15 +6114,19 @@ a.close.disabled {
   align-items: flex-start;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 1rem 1rem;
+  align-items: center;
+  padding: 0.5rem 1rem;
   border-bottom: 1px solid #dee2e6;
-  border-top-left-radius: calc(0.3rem - 1px);
-  border-top-right-radius: calc(0.3rem - 1px);
+  border-top-left-radius: calc(0.75rem - 1px);
+  border-top-right-radius: calc(0.75rem - 1px);
+  color: #fff;
+  background-color: #ff3500;
 }
 
 .modal-header .close {
   padding: 1rem 1rem;
   margin: -1rem -1rem -1rem auto;
+
 }
 
 .modal-title {
@@ -6952,7 +6956,7 @@ button.bg-dark:focus {
 }
 
 .rounded {
-  border-radius: 0.25rem !important;
+  border-radius: 0.75rem !important;
 }
 
 .rounded-top {
