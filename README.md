@@ -2,9 +2,12 @@
   <img src="assets/images/cover.jpg">
 </div>
 
-
-Desenvolvedor Fullstack Jr. | JavaScript | jQuery | PHP | Laravel | MySQL | Git | GitHub<br>
-Busco como objetivo profissional me tornar um desenvolvedor Full Stack referência na área e com domínio amplo de linguagens, engenharia e arquitetura de software.
+<div>
+  Desenvolvedor Fullstack Jr. | JavaScript | jQuery | PHP | Laravel | MySQL | Git | GitHub
+</div>
+<div>
+  Busco como objetivo profissional me tornar um desenvolvedor Full Stack referência na área e com domínio amplo de linguagens, engenharia e arquitetura de software.
+</div>
 <div>
   <div>
     <h4>Tecnologias</h4>
