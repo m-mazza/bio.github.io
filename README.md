@@ -3,10 +3,10 @@
 </div>
 <br>
 <div>
-  Desenvolvedor Fullstack Jr. | JavaScript | jQuery | PHP | Laravel | MySQL | Git | GitHub
+  <strong>Desenvolvedor Fullstack Jr. | JavaScript | jQuery | PHP | Laravel | MySQL | Git | GitHub</strong>
 </div>
 <div>
-  Busco como objetivo profissional me tornar um desenvolvedor Full Stack referência na área e com domínio amplo de linguagens, engenharia e arquitetura de software.
+  Meu objetivo profissional é me tornar um desenvolvedor Full Stack referência na área e com domínio amplo de linguagens, engenharia e arquitetura de software.
 </div>
 <div>
   <div>
