@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/images/cover.jpg">
 </div>
-
+<br>
 <div>
   Desenvolvedor Fullstack Jr. | JavaScript | jQuery | PHP | Laravel | MySQL | Git | GitHub
 </div>
