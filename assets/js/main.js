@@ -52,7 +52,6 @@ $(function() {
     });
 
     // SCROLL ATÉ O ELEMENTO CLICADO
-
     $('.navbar-area a[href^="#"').on('click', function(e) {
         e.preventDefault();
         var id = $(this).attr('href');
@@ -62,5 +61,11 @@ $(function() {
             scrollTop: targetOffset - 100
         }, 500);
     });
+
+    // SCROLL ATÉ O TOP
+    $('.btn-top').on('click', function() {
+        $("html, body").animate({scrollTop:0}, 1500)
+    });
+
 
 })

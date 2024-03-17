@@ -67,6 +67,17 @@ ul {
     box-shadow: none;
 }
 
+.btn-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: var(--btn-primary);
+    color: #fff;
+    padding: 0.8rem 1rem;
+    border-radius: 0.8rem;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
 
 /* titulo principal */
 .main-title {
